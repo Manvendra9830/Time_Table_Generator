@@ -97,7 +97,7 @@ class DBMgr:
     def get_depts(self): return self._depts
     def get_timings(self): return self._timings
     def get_numberOfClasses(self): return self._numberOfClasses
-
+#hiii
 class Schedule:
     def __init__(self):
         self._data = dbMgr
