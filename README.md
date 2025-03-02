@@ -1,4 +1,7 @@
-# 🕒 Time Table Generator  
+# 🕒 Time Table Generator
+
+## 🌐 Deployment
+**Live Demo**: [Time Table Generator](https://time-table-generator-95m7.onrender.com) (Deployed on Render)
 
 ## 📋 Overview  
 The **Time Table Generator** is a software engineering project aimed at creating an intelligent scheduling system for academic institutions. Utilizing **Genetic Algorithms**, the tool generates optimized class schedules that minimize conflicts and enhance resource utilization. The project is implemented using **Flask** for the web interface and **SQLite** for database management.  
@@ -39,32 +42,7 @@ The **Time Table Generator** is a software engineering project aimed at creating
 
 ---
 
-## 🌟 Results  
-
-- 📉 **Conflict Reduction**: Decreased class scheduling conflicts by 40%, improving student attendance and satisfaction.  
-- 🔄 **Dynamic Scheduling**: Delivered a responsive system capable of adapting to multiple departments and real-time changes.  
-- 📈 **Optimized Utilization**: Enhanced resource allocation efficiency by 30%, ensuring better use of classrooms and faculty time.  
-
----
-
-## 📂 Directory Structure  
-
-```plaintext
-manvendra9830-time_table_generator/
-├── README.md
-├── app.py
-├── class_schedule.db
-├── generated_schedule_output.xlsx
-├── requirements.txt
-├── Templates/
-│   ├── about.html
-│   ├── download.html
-│   ├── index.html
-│   └── upload.html
-└── Upload/
-    └── myExcel.xlsx
-
-## Libraries Used
+## 📚 Libraries Used
 
 - **Flask**: Web framework for creating the application interface.
 - **SQLite**: Database for storing and managing scheduling data.
@@ -72,6 +50,8 @@ manvendra9830-time_table_generator/
 - **PrettyTable**: For rendering tabular data.
 - **Enum**: To define constant sets for scheduling constraints.
 - **Random**: For genetic algorithm operations.
+
+---
 
 ## Installation and Setup
 
@@ -89,10 +69,16 @@ manvendra9830-time_table_generator/
 3. Run the application:
    ```bash
    python app.py
+
    ```
+   
+## 🌟 Results  
 
-4. Access the application at `http://localhost:5000`.
+- 📉 **Conflict Reduction**: Decreased class scheduling conflicts by 40%, improving student attendance and satisfaction.  
+- 🔄 **Dynamic Scheduling**: Delivered a responsive system capable of adapting to multiple departments and real-time changes.  
+- 📈 **Optimized Utilization**: Enhanced resource allocation efficiency by 30%, ensuring better use of classrooms and faculty time.  
 
+---
 ## Features
 
 - **Automated Scheduling**: Generates optimized timetables based on input constraints.
@@ -117,3 +103,8 @@ manvendra9830-time_table_generator/
 ---
 
 Feel free to explore, contribute, or reach out with suggestions for improvement!
+
+---
+
+
+
